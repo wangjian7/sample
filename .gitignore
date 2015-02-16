@@ -1,2 +1,8 @@
 .metadata
 RemoteSystemsTempFiles
+
+.classpath
+.project
+.settings
+SimpleSOAPExample
+SimpleSOAPExampleClient
