@@ -1,4 +1,4 @@
-package sourcemaking.creation.singleton;
+package creation.singleton;
 
 public class Main1Wrong {
 
