@@ -1,13 +1,13 @@
 package creation.singleton;
 
-public class Main1Wrong {
+public class GovernmentMain {
 
 	public static void main(String[] args) {
-		GovernmentWrong government = GovernmentWrong.getInstance();
+		Government government = Government.getInstance();
 		government.setName("abc");
 		System.out.println(government.getName());
 		
-		GovernmentWrong government2 = GovernmentWrong.getInstance();
+		Government government2 = Government.getInstance();
 		System.out.println(government2.getName());
 		
 	}

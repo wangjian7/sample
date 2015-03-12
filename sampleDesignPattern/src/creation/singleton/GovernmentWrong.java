@@ -20,6 +20,7 @@ public class GovernmentWrong {
 
 	public static GovernmentWrong getInstance() {
 		if (instance == null) {
+			//here is the wrong code
 			return new GovernmentWrong();
 		}else{
 			return instance;
