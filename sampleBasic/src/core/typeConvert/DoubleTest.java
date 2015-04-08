@@ -13,6 +13,7 @@ public class DoubleTest {
 		Double doubleNumber4 = new Double(13.128);
 		Double doubleNumber5 = new Double(13.00);
 		//know the different with #.##
+		//DecimalFormat df = new DecimalFormat("#.##");
 		DecimalFormat df = new DecimalFormat("#.00");
 		df.setRoundingMode(RoundingMode.FLOOR);
 		

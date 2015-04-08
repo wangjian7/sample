@@ -1,0 +1,15 @@
+entry
+Did it again!
+exit with(false)
+entry
+Did it again!
+exit with(false)
+entry
+Did it again!
+exit with(false)
+16:12:32.275 [main] TRACE util.log.Bar - entry
+16:12:32.276 [main] ERROR util.log.Bar - Did it again!
+16:12:32.277 [main] TRACE util.log.Bar - exit with(false)
+14:24:47.569 [main] TRACE util.log.Bar - entry
+14:24:49.567 [main] ERROR util.log.Bar - Did it again!
+14:24:59.667 [main] TRACE util.log.Bar - exit with(false)
