@@ -1,4 +1,4 @@
-package core.type;
+package core.common.util;
 
 public class StringTest {
 

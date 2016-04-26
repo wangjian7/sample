@@ -17,9 +17,10 @@ import sun.misc.BASE64Encoder;
  * 
  * @author Joe Prasanna Kumar
  * 
- *         1. Encrypt the data using a Symmetric Key 2. Encrypt the Symmetric
- *         key using the Receivers public key 3. Create a Message Digest of the
- *         data to be transmitted 4. Sign the message to be transmitted 5. Send
+ *         1. Encrypt the data using a Symmetric Key 
+ *         2. Encrypt the Symmetric key using the Receivers public key 
+ *         3. Create a Message Digest of the data to be transmitted 
+ *         4. Sign the message to be transmitted 5. Send
  *         the data over to an unsecured channel 6. Validate the Signature 7.
  *         Decrypt the message using Recv private Key to get the Symmetric Key
  *         8. Decrypt the data using the Symmetric Key 9. Compute MessageDigest
